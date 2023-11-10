@@ -57,6 +57,8 @@ def preprocess_input(input_data, onehot_encoder, scaler, column_order):
 
 	return processed_df
 
+st.title("Bangladesh Weather Predictor")
+
 # Streamlit form to capture user inputs
 with st.form("user_input_form"):
 
