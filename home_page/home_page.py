@@ -4,7 +4,7 @@ import streamlit as st
 st.set_page_config(page_title="Group 2's Home App", layout="wide")
 
 # Title and introduction of your team
-st.title("Welcome to Group 2's Home App")
+st.title("Welcome to Group 2's Home Page")
 st.write("""
          This application is the central hub for our machine learning project.
          Our group is composed by Omar Altarakieh, Alan Corrales, Jose Manuel Cuenca, Regina de Alba, Javier Torres, and Moritz von Ditfurth.
@@ -72,4 +72,4 @@ create_section("🚙 Used Cars Price Prediction",
 
 # Add a footer note
 st.markdown('---')
-st.write("Created by Group 2")
+st.write("Created by Group 2 - Omar Altarakieh | Alan Corrales | Jose Manuel Cuenca | Regina de Alba | Javier Torres | Moritz von Ditfurth")
